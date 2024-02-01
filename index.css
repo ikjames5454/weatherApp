@@ -1,0 +1,87 @@
+body{
+    height: 100vh; 
+    /* background-image: url(images/pexels-johannes-plenio-1118873.jpg); */
+    background-image: url('images/—Slidesdocs—heavenly\ clouds\ a\ stunning\ 3d_a798cf46c4.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather{
+    font-size: 100px;
+    background-color: black;
+    color: white;
+    padding: 0px 50px 10px ;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+#first{
+    margin-bottom: 1%;
+}
+
+.input{
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: none;
+    font-size: 25px;
+
+}
+.button{
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    background-color: brown;
+    color: wheat;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 10;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 10;
+}
+#second{
+    margin-left: 25%;
+}
+
+#third{
+    background-image: url(images/pexels-johannes-plenio-1118873.jpg);
+    color: white;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}.temp{
+    font-size: 30px;
+    margin-left: 30%;
+    font-family: Roboto, Arial;
+    padding: 4px;
+
+    
+
+}.temp2{
+    font-size: 50px;
+    
+}
+#fourth{
+    background-image: url(images/rain-wood-river-bad-weather-1f29736cdaj3a08b.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 18%;
+    height: 110px;
+    font-family: Roboto, Arial;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+}
